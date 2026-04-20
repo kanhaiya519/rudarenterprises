@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rudar Enterprises</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body {font-family:Arial, sans-serif;background:#f5f5f5;}
+
+header {background:#0d6efd;color:white;padding:15px;text-align:center;}
+header img {height:60px;}
+
+nav {display:flex;justify-content:center;gap:15px;background:#333;padding:10px;flex-wrap:wrap;}
+nav a {color:white;text-decoration:none;font-weight:bold;font-size:14px;}
+
+section {padding:25px;text-align:center;}
+
+.products {display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;}
+.product {background:white;padding:15px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+
+footer {background:#222;color:white;padding:20px;text-align:center;}
+.social a {margin:10px;color:white;font-size:16px;text-decoration:none;display:inline-block}
+
+.whatsapp {position:fixed;bottom:15px;right:15px;background:#25D366;color:white;padding:12px 15px;border-radius:50px;font-size:14px;text-decoration:none;}
+
+/* Mobile UI */
+@media(max-width:600px){
+header img{height:50px}
+h1{font-size:20px}
+.products{grid-template-columns:1fr}
+nav{gap:10px}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" alt="Rudar Enterprises Logo">
+<h1>Rudar Enterprises</h1>
+<p>Quality Products | Trusted Service</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+<h2>Welcome to Rudar Enterprises</h2>
+<p>We provide high-quality products with trusted service.</p>
+</section>
+
+<section id="products">
+<h2>Our Products</h2>
+<div class="products">
+<div class="product">
+<h3>Product 1</h3>
+<p>Best quality product description here.</p>
+</div>
+<div class="product">
+<h3>Product 2</h3>
+<p>Best quality product description here.</p>
+</div>
+<div class="product">
+<h3>Product 3</h3>
+<p>Best quality product description here.</p>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p><b>Poonam Rani</b> - 7206214269</p>
+<p><b>Kanhaiya Yadav</b> - 7497055751</p>
+<p><b>Email:</b> rudarenterprises@zohomail.in</p>
+</section>
+
+<footer>
+<p>Follow Us</p>
+<div class="social">
+<a href="https://instagram.com/rudarenterprises" target="_blank">Instagram</a>
+<a href="https://youtube.com" target="_blank">YouTube</a>
+<a href="https://facebook.com" target="_blank">Facebook</a>
+</div>
+<p>© 2026 Rudar Enterprises</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/917497055751?text=Hello%20Rudar%20Enterprises%2C%20mujhe%20information%20chahiye" target="_blank">Chat</a>
+
+</body>
+</html>
